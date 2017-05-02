@@ -1,0 +1,381 @@
+html, body {
+	background-color: #135781;
+	height: 100%;
+}
+
+#header {
+	padding: 5px 0px;
+	color: #fff;
+	text-align: center;
+	font-family: helvetica;
+}
+
+#wrapper {
+	height: auto;
+	background-image: url("/img/fondo.png");
+	background-color: #f2f2f2;
+	border: #bfbfbf;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+    width: 97%;
+}
+
+.row > #login {
+	padding: 30px;
+	margin-top: auto;
+}
+
+.panel-default {
+	margin-top: 12px;
+	margin-bottom: 12px;
+	width: 100%;
+}
+
+#menu {
+	background-image: url("/img/fondo.png");
+	background-color: #fafafa;
+	border-radius: 5px;
+}
+
+.navbar-toggle {
+	background-image: url("../img/fondo.png");
+	background-color: #fafafa;
+}
+
+.navbar-nav > li > a {
+	border-radius: 5px;
+}
+.navbar-toggle .icon-bar {
+    background-color: #b3b3b3;
+}
+
+#u1, #u2, #u3, #u4, #u5, #u6 {
+	border-radius: 5px;
+	margin: 10px;
+}
+
+#u1 {
+	background-color: rgba(51, 122, 183, 0.25);
+    border-color: #2e6da4;
+    color: #286090;
+
+}
+
+#u2 {
+	background-color: rgba(92, 184, 92, 0.25);
+    border-color: #4cae4c;
+    color: #449d44;
+}
+
+#u3 {
+    background-color: rgba(240, 173, 78, 0.25);
+    border-color: #eea236;
+    color: #d58512;
+}
+
+#u4 {
+    background-color: rgba(91, 192, 222, 0.25);
+    border-color: #46b8da;
+    color: #31b0d5;
+}
+
+#u5 {
+    background-color: rgba(217, 83, 79, 0.25);
+    border-color: #d43f3a;
+    color: #c9302c;
+}
+
+#u6 {
+    background-color: rgba(126, 133, 50, 0.25);
+    border-color: #7e8532;
+    color: #8a9325;
+}
+
+/*-------Search Field-------*/
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+
+/*-------Counter Section-------*/
+#counter {
+	margin: 5px 0;
+    width: 98%;
+}
+
+.p-y-2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.p-y-3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.m-b-1 {
+    margin-bottom: 18px;
+}
+.m-t-1 {
+    margin-top: 18px;
+}
+
+.main_counter_area {
+	background-color: transparent;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.main_counter_area .main_counter_content .single_counter {
+	background: rgba(126, 133, 50, 0.5);
+	color: #fff;
+}
+
+.main_counter_area .main_counter_content .single_counter i {
+	font-size:20px;
+}
+
+.single_counter > p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.single_counter > i {
+    margin-top: 5px;
+    height: 10px;
+}
+
+/*-------Table Section-------*/
+#table {
+	margin: 20px 0;
+    font-size: 13px;
+}
+
+.table-striped > tbody > tr:hover {
+    background-color: rgba(126, 133, 50, 0.5);
+    color: #fff;
+}
+
+.table {
+    background-color: #cfcfcf;
+}
+
+#controles > a > i {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+/*-------Manage text-------*/
+.texto_responsive:before{
+  content: attr(data-desktoptext);
+}
+
+@media (max-width:900px) {
+    #header, .texto_responsive:before {
+        content: attr(data-tablettext);
+        font-size: 18px;
+        height: 70px;
+    }
+}
+
+@media (max-width:400px){
+    #header, .texto_responsive:before {
+        content: attr(data-phonetext);
+        font-size: 16px;
+        height: 40px;
+    }
+}
+
+/*-------Acordeón-------*/
+.panel-group .panel-heading {
+    background-color: transparent;
+    background-color: rgba(51, 122, 183, 0.25);
+    border-color: #2e6da4;
+    color: #286090;
+}
+
+.panel-group .panel-heading:hover,
+.panel-group .panel-heading:focus {
+    background-color: transparent;
+    background-color: rgba(126, 133, 50, 0.25);
+    border-color: #7e8532;
+    color: #8a9325;
+}
+
+.panel-heading > h4 {
+    font-size: 30px;
+}
+
+.panel-title > a {
+    text-decoration: none;
+}
+
+#acc {
+    padding: 50px;
+    font-size: 18px;
+}
+
+/*-------Monitoreo y contadores-------*/
+.monitor {
+    text-align: center;
+}
+
+.monitor > h2 {
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+/*-------Wizard Vertical-------*/
+.bootstrapWizard {
+    display: block;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    width: 100%
+}
+
+.bootstrapWizard a:hover,.bootstrapWizard a:active,.bootstrapWizard a:focus {
+    text-decoration: none
+}
+
+.bootstrapWizard li {
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-left: 0
+}
+
+.bootstrapWizard li:before {
+    border-top: 3px solid #55606E;
+    content: "";
+    display: block;
+    font-size: 0;
+    overflow: hidden;
+    position: relative;
+    top: 11px;
+    right: 1px;
+    width: 100%;
+    z-index: 1
+}
+
+.bootstrapWizard li:first-child:before {
+    left: 50%;
+    max-width: 50%
+}
+
+.bootstrapWizard li:last-child:before {
+    max-width: 50%;
+    width: 50%
+}
+
+.bootstrapWizard li.complete .step {
+    background: #0aa66e;
+    padding: 1px 6px;
+    border: 3px solid #55606E
+}
+
+.bootstrapWizard li .step i {
+    font-size: 10px;
+    font-weight: 400;
+    position: relative;
+    top: -1.5px
+}
+
+.bootstrapWizard li .step {
+    background: #B2B5B9;
+    color: #fff;
+    display: inline;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 12px;
+    padding: 7px 13px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    transition: all .1s linear 0s
+}
+
+.bootstrapWizard li.active .step,.bootstrapWizard li.active.complete .step {
+    background: #58a2d0;
+    color: #fff;
+    font-weight: 700;
+    padding: 7px 13px;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 3px solid #55606E
+}
+
+.bootstrapWizard li.complete .title,.bootstrapWizard li.active .title {
+    color: #2B3D53
+}
+
+.bootstrapWizard li .title {
+    color: #bfbfbf;
+    display: block;
+    font-size: 13px;
+    line-height: 15px;
+    max-width: 100%;
+    position: relative;
+    table-layout: fixed;
+    text-align: center;
+    top: 20px;
+    word-wrap: break-word;
+    z-index: 104
+}
+
+.wizard-actions {
+    display: block;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    width: 100%
+}
+
+.wizard-actions li {
+    display: inline
+}
+
+.tab-content.transparent {
+    background-color: transparent
+}
+
+#footer {
+	font-size: 12px;
+	text-decoration: none;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+}
