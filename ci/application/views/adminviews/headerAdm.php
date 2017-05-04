@@ -44,12 +44,6 @@
     <div class="navbar-collapse collapse" id="menu">
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-          <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">Temporal<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="<?=site_url('main/votacion');?>">Votacion</a></li>
-            <li class="divider"></li>
-            <li><a href="<?=site_url('main/monitoreo');?>">Monitoreo</a></li>
-          </ul>
         </li>
         <li class="active"><a href="<?=site_url('admin/index');?>">Inicio</a></li>
         <li class="dropdown">
