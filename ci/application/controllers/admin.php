@@ -28,9 +28,25 @@ class Admin extends CI_Controller {
 
 	public function entidadNueva()
 	{
-		$data['header']['title'] = ("SVE - Entidad");
+		$data['header']['title'] = ("SVE - Nueva Entidad");
 		$this->load->view('adminviews/headerAdm', $data['header']);
 		$this->load->view('adminviews/entidad_nueva');
+		$this->load->view('footer');
+	}
+
+	public function orgcolegiado()
+	{
+		$data['header']['title'] = ("SVE - Órgano Colegiado");
+		$this->load->view('adminviews/headerAdm', $data['header']);
+		$this->load->view('adminviews/orgColegiado');
+		$this->load->view('footer');
+	}
+
+	public function orgcolegiadoNuevo()
+	{
+		$data['header']['title'] = ("SVE - Nuevo Órgano Colegiado");
+		$this->load->view('adminviews/headerAdm', $data['header']);
+		$this->load->view('adminviews/orgColegiado_nuevo');
 		$this->load->view('footer');
 	}
 }
