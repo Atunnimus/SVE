@@ -80,7 +80,6 @@
                     <button id="limpiar" name="limpiar" class="btn btn-danger">Limpiar</button>
                   </div>
                 </div>
-
               </fieldset>
             </form>
           </div>
