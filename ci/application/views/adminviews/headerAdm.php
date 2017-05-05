@@ -42,7 +42,7 @@
     </div>
     <!--Menu y sub-menus-->
     <div class="navbar-collapse collapse" id="menu">
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-left">
         <li class="dropdown">
         </li>
         <li class="active"><a href="<?=site_url('admin/index');?>">Inicio</a></li>

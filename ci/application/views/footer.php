@@ -1,6 +1,6 @@
     </div>
     <footer>
-      <div class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="navbar navbar-inverse navbar-static-bottom">
         <div class="container">
           <div class="navbar-text pull-left" id="footer">
             <p><em>Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere permiso previo por escrito de la institución. </em><a href="javascript:;">Créditos</a></p>

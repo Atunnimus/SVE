@@ -1,119 +1,88 @@
       <div class="container">
         <div class="row">
-          <article class="col-sm-12 col-md-12 col-lg-12 sortable-grid ui-sortable">
-            <div id="wid-id-0">
-              <!-- widget div-->
-              <div role="content">
-                <!-- widget content -->
-                <div class="widget-body">
-                  <div class="row">
-                    <form id="wizard-1" novalidate="novalidate">
-                      <div id="bootstrap-wizard-1" class="col-sm-12">
-                        <div class="form-bootstrapWizard">
-                          <ul class="bootstrapWizard form-wizard">
-                            <li class="active" data-target="#step1">
-                              <a href="#tab1" data-toggle="tab" class="active"> <span class="step">1</span> <span class="title">Basic information</span></a>
-                            </li>
-                            <li data-target="#step2" class="">
-                              <a href="#tab2" data-toggle="tab"><span class="step">2</span> <span class="title">Billing information</span></a>
-                            </li>
-                            <li data-target="#step3" class="">
-                              <a href="#tab3" data-toggle="tab"><span class="step">3</span> <span class="title">Domain Setup</span></a>
-                            </li>
-                            <li data-target="#step4">
-                              <a href="#tab4" data-toggle="tab"><span class="step">4</span> <span class="title">Save Form</span></a>
-                            </li>
-                          </ul>
-                          <div class="clearfix"></div>
-                        </div>
-                        <div class="tab-content">
-                          <div class="tab-pane active" id="tab1">
-                            <br>
-                            <h3><strong>Paso 1</strong> - Basic Information</h3>
-                            <div class="form-actions">
-                              <div class="row">
-                                <div class="col-sm-12">
-                                  <ul class="pager wizard no-margin">
-                                    <li class="previous disabled">
-                                      <a href="#" class="btn btn-lg btn-default"> Previous </a>
-                                    </li>
-                                    <li class="next">
-                                      <a href="#" class="btn btn-lg txt-color-darken"> Next </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="tab-pane" id="tab2">
-                            <br>
-                            <h3><strong>Step 2</strong> - Billing Information</h3>
-                            <div class="form-actions">
-                              <div class="row">
-                                <div class="col-sm-12">
-                                  <ul class="pager wizard no-margin">
-                                    <li class="previous">
-                                      <a href="#" class="btn btn-lg btn-default"> Previous </a>
-                                    </li>
-                                    <li class="next disabled">
-                                      <a href="#" class="btn btn-lg txt-color-darken"> Next </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="tab-pane" id="tab3">
-                            <br>
-                            <h3><strong>Step 3</strong> - Domain Setup</h3>
-                            <div class="form-actions">
-                              <div class="row">
-                                <div class="col-sm-12">
-                                  <ul class="pager wizard no-margin">
-                                    <li class="previous">
-                                      <a href="#" class="btn btn-lg btn-default"> Previous </a>
-                                    </li>
-                                    <li class="next disabled">
-                                      <a href="#" class="btn btn-lg txt-color-darken"> Next </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="tab-pane" id="tab4">
-                            <br>
-                            <h3><strong>Step 4</strong> - Save Form</h3>
-                            <br>
-                            <h1 class="text-center text-success"><strong><i class="fa fa-check fa-lg"></i> Complete</strong></h1>
-                            <h4 class="text-center">Click next to finish</h4>
-                            <br>
-                            <br>
-                            <div class="form-actions">
-                              <div class="row">
-                                <div class="col-sm-12">
-                                  <ul class="pager wizard no-margin">
-                                    <li class="previous">
-                                      <a href="#" class="btn btn-lg btn-default"> Previous </a>
-                                    </li>
-                                    <li class="next disabled">
-                                      <a href="#" class="btn btn-lg txt-color-darken"> Next </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
+          <div class="col-md-12">
+            <form class="form-horizontal">
+              <fieldset>
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="clave">Clave</label>  
+                  <div class="col-md-4">
+                  <input id="clave" name="clave" placeholder="Clave de la Entidad" class="form-control input-md" required="" type="text">
+                  <span class="help-block">Cinco caracteres numéricos</span>  
                   </div>
                 </div>
-                <!-- end widget content -->
-              </div>
-              <!-- end widget div -->
-            </div>
-            <!-- end widget -->
-          </article>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="nombre">Nombre</label>  
+                  <div class="col-md-4">
+                  <input id="nombre" name="nombre" placeholder="Nombre de la Entidad" class="form-control input-md" required="" type="text">
+                  <span class="help-block">Hasta 150 caracteres (punto, espacio y alfabéticos)</span>  
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="corto">Nombre corto</label>  
+                  <div class="col-md-4">
+                  <input id="corto" name="corto" placeholder="Nombre corto de la Entidad" class="form-control input-md" required="" type="text">
+                  <span class="help-block">Hasta 10 caracteres alfabéticos sin acentos</span>  
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="repositorio">Nombre del repositorio</label>  
+                  <div class="col-md-4">
+                  <input id="repositorio" name="repositorio" placeholder="Nombre del repositorio" class="form-control input-md" required="" type="text">
+                  <span class="help-block">Hasta 20 caracteres alfabéticos sin acentos</span>  
+                  </div>
+                </div>
+
+                <!-- Prepended checkbox -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="conjuntas">Conjuntas</label>
+                  <div class="col-md-4">
+                    <div class="input-group">
+                      <span class="input-group-addon">     
+                          <input type="checkbox">     
+                      </span>
+                      <input id="conjuntas" name="conjuntas" class="form-control" placeholder="¿Conjuntas?" type="text">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Select Basic -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="econjunta">Entidad Conjunta</label>
+                  <div class="col-md-4">
+                    <select id="econjunta" name="econjunta" class="form-control">
+                      <option value="1">Entidad conjunta</option>
+                      <option value="2">Option one</option>
+                      <option value="">Option two</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- File Button --> 
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="imagen">Imágen</label>
+                  <div class="col-md-4">
+                    <input id="imagen" name="imagen" class="input-file" type="file">
+                  </div>
+                </div>
+
+                <!-- Button (Double) -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="aceptar"></label>
+                  <div class="col-md-8">
+                    <button id="aceptar" name="aceptar" class="btn btn-success">Aceptar</button>
+                    <button id="limpiar" name="limpiar" class="btn btn-danger">Limpiar</button>
+                  </div>
+                </div>
+
+              </fieldset>
+            </form>
+          </div>
         </div>
       </div>
