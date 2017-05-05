@@ -51,7 +51,7 @@
           <ul class="dropdown-menu">
             <li><a href="<?=site_url('admin/entidad');?>">Entidad</a></li>
             <li class="divider"></li>
-            <li><a href="javascript:;">Órgano Colegiado</a></li>
+            <li><a href="<?=site_url('admin/orgcolegiado');?>">Órgano Colegiado</a></li>
             <li class="divider"></li>
             <li><a href="javascript:;">Figura</a></li>
             <li class="divider"></li>
@@ -102,6 +102,3 @@
     <div class="container" id="wrapper">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="<?=site_url('admin/index');?>">Home</a></li>
-        <li class="breadcrumb-item"><a href="javascript:;">Admin. Catálogos</a></li>
-        <li class="breadcrumb-item active">Entidad</li>
-      </ol>

@@ -1,3 +1,6 @@
+        <li class="breadcrumb-item"><a href="javascript:;">Admin. Catálogos</a></li>
+        <li class="breadcrumb-item active">Entidad</li>
+      </ol>      
       <!--Search Section-->
       <div class="row">
         <div class="col-md-5">
