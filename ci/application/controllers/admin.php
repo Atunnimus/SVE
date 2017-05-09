@@ -66,6 +66,22 @@ class Admin extends CI_Controller {
 		$this->load->view('footer');
 	}
 
+	public function nivel()
+	{
+		$data['header']['title'] = ("SVE - Nivel");
+		$this->load->view('adminviews/headerAdm', $data['header']);
+		$this->load->view('adminviews/nivel');
+		$this->load->view('footer');
+	}
+
+	public function nivelNuevo()
+	{
+		$data['header']['title'] = ("SVE - Nuevo Nivel");
+		$this->load->view('adminviews/headerAdm', $data['header']);
+		$this->load->view('adminviews/nivel_nuevo');
+		$this->load->view('footer');
+	}
+
 }
 
 /* End of file welcome.php */

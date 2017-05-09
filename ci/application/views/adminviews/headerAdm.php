@@ -55,7 +55,7 @@
             <li class="divider"></li>
             <li><a href="<?=site_url('admin/figura');?>">Figura</a></li>
             <li class="divider"></li>
-            <li><a href="javascript:;">Nivel</a></li>
+            <li><a href="<?=site_url('admin/nivel');?>">Nivel</a></li>
             <li class="divider"></li>
             <li><a href="javascript:;">División de Estudios</a></li>
             <li class="divider"></li>
