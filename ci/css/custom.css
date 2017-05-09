@@ -1,6 +1,11 @@
-html, body {
-	background-color: #135781;
-	height: 100%;
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #135781;
 }
 
 #header {
@@ -16,8 +21,8 @@ html, body {
 	background-color: #f2f2f2;
 	border: #bfbfbf;
 	border-radius: 10px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 15px;
+	margin-bottom: 80px;
     width: 97%;
 }
 
@@ -374,8 +379,19 @@ html, body {
 }
 
 #footer {
-	font-size: 12px;
+	font-size: 13px;
 	text-decoration: none;
 	margin-bottom: 4px;
-	padding-bottom: 4px;
+	padding: 4px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 74px;
+    background-color: #222;
+    border-color: #080808;
+    color: #9d9d9d;
 }

@@ -1,10 +1,8 @@
     </div>
-    <footer>
-      <div class="navbar navbar-inverse navbar-static-bottom">
-        <div class="container">
-          <div class="navbar-text pull-left" id="footer">
-            <p><em>Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere permiso previo por escrito de la institución. </em><a href="javascript:;">Créditos</a></p>
-          </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="navbar-text pull-left" id="footer">
+          <p><em>Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere permiso previo por escrito de la institución. </em><a href="javascript:;">Créditos</a></p>
         </div>
       </div>
     </footer>
@@ -21,18 +19,6 @@
         delay: 10,
         time: 800
       });
-    </script>
-    <script>
-        /*
-         * Example 2:
-         *   - default gradient
-         *   - listening to `circle-animation-progress` event and display the animation progress: from 0 to 100%
-         */
-        $('.second.circle').circleProgress({
-            value: 1
-        }).on('circle-animation-progress', function(event, progress) {
-            $(this).find('strong').html(parseInt(100 * progress) + ' %');
-        });
     </script>
   </body>
 </html>
