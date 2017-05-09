@@ -1,10 +1,10 @@
 				<li class="breadcrumb-item"><a href="javascript:;">Admin. Catálogos</a></li>
-        <li class="breadcrumb-item active">Órgano Colegiado</li>
+        <li class="breadcrumb-item active">Figura</li>
       </ol>
 			<div class="row">
 				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"></div>
         <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="controles">
-          <a href="<?=site_url('admin/orgColegiadoNuevo');?>"><i class="fa fa-plus" aria-hidden="true"></i></a>
+          <a href="<?=site_url('admin/figuraNuevo');?>"><i class="fa fa-plus" aria-hidden="true"></i></a>
         </div>
         <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" id="controles">
           <a href="javascript:;"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
@@ -17,7 +17,7 @@
         <div class="col-md-5">
           <div id="custom-search-input">
             <div class="input-group col-md-12">
-              <input type="text" class="form-control input-lg" placeholder="Buscar Órgano Colegiado" />
+              <input type="text" class="form-control input-lg" placeholder="Buscar Figura"/>
               <span class="input-group-btn">
                 <button class="btn btn-info btn-lg" type="button">
                   <i class="fa fa-search" aria-hidden="true"></i>
@@ -33,39 +33,33 @@
                 <th>#</th>
                 <th>Nombre</th>
                 <th>Nombre Corto</th>
-                <th>Clave</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>1</td>
-                <td>Consejo Universitario</td>
-                <td>CU</td>
-                <td>1</td>
+                <td>Académico</td>
+                <td>AC</td>
               </tr>
               <tr>
                 <td>2</td>
-                <td>Consejo Académico de Área</td>
-                <td>CAA</td>
-                <td>2</td>
+                <td>Administrativo de base</td>
+                <td>AB</td>
               </tr>
               <tr>
                 <td>3</td>
-                <td>Consejo Técnico</td>
-                <td>CT</td>
-                <td>3</td>
+                <td>Alumno</td>
+                <td>A</td>
               </tr>
               <tr>
                 <td>4</td>
-                <td>Consejo Interno</td>
-                <td>CI</td>
-                <td>4</td>
+                <td>Alumno SUAyED</td>
+                <td>ASUAYED</td>
               </tr>
               <tr>
                 <td>5</td>
-                <td>Consejo Departamental</td>
-                <td>CDP</td>
-                <td>5</td>
+                <td>Investigador</td>
+                <td>I</td>
               </tr>
             </tbody>
           </table>

@@ -44,7 +44,7 @@ $route['404_override'] = '';
 $route['/administracion'] = 'admin/index';
 $route['/administracion/entidad'] = 'admin/entidad';
 
-$route['/votacion'] = 'main/votacion';
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

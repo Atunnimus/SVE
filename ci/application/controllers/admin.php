@@ -49,6 +49,23 @@ class Admin extends CI_Controller {
 		$this->load->view('adminviews/orgColegiado_nuevo');
 		$this->load->view('footer');
 	}
+
+	public function figura()
+	{
+		$data['header']['title'] = ("SVE - Figura");
+		$this->load->view('adminviews/headerAdm', $data['header']);
+		$this->load->view('adminviews/figura');
+		$this->load->view('footer');
+	}
+
+	public function figuraNuevo()
+	{
+		$data['header']['title'] = ("SVE - Nueva Figura");
+		$this->load->view('adminviews/headerAdm', $data['header']);
+		$this->load->view('adminviews/figura_nuevo');
+		$this->load->view('footer');
+	}
+
 }
 
 /* End of file welcome.php */

@@ -6,7 +6,7 @@
         <div class="col-md-5">
           <div id="custom-search-input">
             <div class="input-group col-md-12">
-              <input type="text" class="form-control input-lg" placeholder="Buscar" />
+              <input type="text" class="form-control input-lg" placeholder="Buscar Entidad" />
               <span class="input-group-btn">
                 <button class="btn btn-info btn-lg" type="button">
                   <i class="fa fa-search" aria-hidden="true"></i>
@@ -203,46 +203,6 @@
               </tr>
               <tr>
                 <td>10</td>
-                <td>41301</td>
-                <td>Facultad de Contaduría y Administración</td>
-                <td>FCONTAADMI</td>
-                <td>fcontaadmi</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>11</td>
-                <td>41301</td>
-                <td>Facultad de Contaduría y Administración</td>
-                <td>FCONTAADMI</td>
-                <td>fcontaadmi</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>12</td>
-                <td>41301</td>
-                <td>Facultad de Contaduría y Administración</td>
-                <td>FCONTAADMI</td>
-                <td>fcontaadmi</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>13</td>
-                <td>41301</td>
-                <td>Facultad de Contaduría y Administración</td>
-                <td>FCONTAADMI</td>
-                <td>fcontaadmi</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>14</td>
-                <td>41301</td>
-                <td>Facultad de Contaduría y Administración</td>
-                <td>FCONTAADMI</td>
-                <td>fcontaadmi</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>15</td>
                 <td>41301</td>
                 <td>Facultad de Contaduría y Administración</td>
                 <td>FCONTAADMI</td>

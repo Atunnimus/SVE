@@ -53,7 +53,7 @@
             <li class="divider"></li>
             <li><a href="<?=site_url('admin/orgcolegiado');?>">Órgano Colegiado</a></li>
             <li class="divider"></li>
-            <li><a href="javascript:;">Figura</a></li>
+            <li><a href="<?=site_url('admin/figura');?>">Figura</a></li>
             <li class="divider"></li>
             <li><a href="javascript:;">Nivel</a></li>
             <li class="divider"></li>
