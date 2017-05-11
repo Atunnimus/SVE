@@ -20,10 +20,10 @@ body {
 	background-image: url("/img/fondo.png");
 	background-color: #f2f2f2;
 	border: #bfbfbf;
-	border-radius: 10px;
+	border-radius: 3px;
 	margin-top: 15px;
 	margin-bottom: 80px;
-    width: 97%;
+    width: 99%;
 }
 
 .row > #login {
@@ -40,7 +40,6 @@ body {
 #menu {
 	background-image: url("/img/fondo.png");
 	background-color: #fafafa;
-	border-radius: 5px;
 }
 
 .navbar-toggle {
