@@ -20,10 +20,9 @@
                   <label class="col-md-4 control-label" for="aceptar"></label>
                   <div class="col-md-8">
                     <button id="aceptar" name="aceptar" class="btn btn-success">Aceptar</button>
-                    <button id="limpiar" name="limpiar" class="btn btn-danger">Limpiar</button>
+                    <button id="limpiar" name="limpiar" class="btn btn-danger" type="reset">Limpiar</button>
                   </div>
                 </div>
-
               </fieldset>
             </form>
           </div>
