@@ -57,7 +57,7 @@
             <li class="divider"></li>
             <li><a href="<?=site_url('admin/nivel');?>">Nivel</a></li>
             <li class="divider"></li>
-            <li><a href="javascript:;">División de Estudios</a></li>
+            <li><a href="<?=site_url('admin/division');?>">División de Estudios</a></li>
             <li class="divider"></li>
             <li><a href="javascript:;">Elección</a></li>
           </ul>

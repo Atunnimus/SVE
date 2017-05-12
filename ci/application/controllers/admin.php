@@ -82,6 +82,22 @@ class Admin extends CI_Controller {
 		$this->load->view('footer');
 	}
 
+	public function division()
+	{
+		$data['header']['title'] = ("SVE - División de Estudios");
+		$this->load->view('adminviews/headerAdm', $data['header']);
+		$this->load->view('adminviews/division');
+		$this->load->view('footer');
+	}
+
+	public function divisionNuevo()
+	{
+		$data['header']['title'] = ("SVE - Nueva División de Estudios");
+		$this->load->view('adminviews/headerAdm', $data['header']);
+		$this->load->view('adminviews/division_nuevo');
+		$this->load->view('footer');
+	}
+
 }
 
 /* End of file welcome.php */
